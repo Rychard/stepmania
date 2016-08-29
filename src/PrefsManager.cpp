@@ -262,6 +262,7 @@ PrefsManager::PrefsManager() :
 	m_bAnisotropicFiltering		( "AnisotropicFiltering",		false ),
 
 	m_bSignProfileData		( "SignProfileData",			false ),
+	m_WarnOnNoProfile("WarnOnNoProfile", true),
 	m_CourseSortOrder		( "CourseSortOrder",			COURSE_SORT_SONGS ),
 	m_bSubSortByNumSteps		( "SubSortByNumSteps",			false ),
 	m_GetRankingName		( "GetRankingName",			RANKING_ON ),
@@ -281,7 +282,7 @@ PrefsManager::PrefsManager() :
 	m_bThreadedInput		( "ThreadedInput",			true ),
 	m_bThreadedMovieDecode		( "ThreadedMovieDecode",		true ),
 	m_sTestInitialScreen		( "TestInitialScreen",			"" ),
-	m_bDebugLights			( "DebugLights",			false ),
+	m_bDebugLights(false),
 	m_bMonkeyInput			( "MonkeyInput",			false ),
 	m_sMachineName			( "MachineName",			"" ),
 	m_sCoursesToShowRanking		( "CoursesToShowRanking",		"" ),

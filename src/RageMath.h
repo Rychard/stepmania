@@ -61,6 +61,9 @@ float RageFastCsc( float x ) CONST_FUNCTION;
 float RageSquare( float x) CONST_FUNCTION;
 float RageTriangle( float x) CONST_FUNCTION;
 
+float RageSquare( float x) CONST_FUNCTION;
+float RageTriangle( float x) CONST_FUNCTION;
+
 class RageQuadratic
 {
 public:
