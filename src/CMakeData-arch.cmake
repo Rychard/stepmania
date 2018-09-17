@@ -407,11 +407,13 @@ list(APPEND SMDATA_ARCH_INPUT_SRC
   "arch/InputHandler/InputHandler.cpp"
   "arch/InputHandler/InputHandler_MonkeyKeyboard.cpp"
   "arch/InputHandler/InputHandler_P3IO.cpp"
+  "arch/InputHandler/InputHandler_P2IO.cpp"
 )
 list(APPEND SMDATA_ARCH_INPUT_HPP
   "arch/InputHandler/InputHandler.h"
   "arch/InputHandler/InputHandler_MonkeyKeyboard.h"
   "arch/InputHandler/InputHandler_P3IO.h"
+  "arch/InputHandler/InputHandler_P2IO.h"
 )
 
 if(WIN32)
