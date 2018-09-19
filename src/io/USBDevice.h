@@ -46,6 +46,7 @@ public:
 	PSTRING GetDeviceDir();
 
 	bool IsHub();
+	bool IsP2IO();
 	bool IsP3IO();
 
 private:
