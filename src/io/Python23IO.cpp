@@ -1065,7 +1065,7 @@ bool Python23IO::writeLightsP2IO(uint8_t* payload)
 	
 	//make a light message
 	uint8_t light_message[] = { 0xaa, 0x04, 0x00, 0x24, payload[0], ~payload[1] };
-	//LOG->Info("Python23IO driver Sending P2IO light message: %02X %02X %02X %02X %02X %02X", light_message[0],light_message[1],light_message[2],light_message[3],light_message[4],light_message[5]);
+	LOG->Info("Python23IO driver Sending P2IO light message: %02X %02X %02X %02X %02X %02X", light_message[0],light_message[1],light_message[2],light_message[3],light_message[4],light_message[5]);
 
 	//send message
 	return WriteToBulkWithExpectedReply(light_message, false);
